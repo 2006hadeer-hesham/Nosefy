@@ -1,0 +1,613 @@
+body{
+ background: linear-gradient(to right, #fef1ed, #fae9e4);
+}
+
+
+        @media (max-width: 991.98px) {
+            .offcanvas {
+               background: linear-gradient(to right, #fef1ed, #fae9e4);
+                color: darkslateblue;
+            }
+
+            .offcanvas-body .navbar-nav {
+                width: 100%;
+            }
+
+            .offcanvas-body .nav-link {
+                color:darkslateblue;
+                padding: 10px 20px;
+                transition: all 0.3s;
+            }
+
+            .offcanvas-body .nav-link:hover {
+                color: white !important;
+                background-color: darkslateblue;
+            }
+
+            .offcanvas-body .dropdown-menu {
+                background: linear-gradient(to right, #fef1ed, #fae9e4);
+                border: none;
+            }
+
+            .offcanvas-body .dropdown-item {
+                color:darkslateblue;
+            }
+
+            .offcanvas-body .dropdown-item:hover {
+                color: white !important;
+                background-color: darkslateblue;
+            }
+            #navbut-mobile {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkslateblue;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#navbut-mobile:hover {
+  color: darkslateblue;
+  background-color: #fff;
+  border: 1px solid white;
+}
+        }
+
+
+        .offcanvas-start {
+            transition: transform 0.3s ease-in-out;
+        }
+
+
+        @media (min-width: 992px) {
+            .navbar {
+              background-color: darkslateblue;
+                box-shadow: 0 2px 10px rgba(224, 196, 154, 0.1);
+            }
+
+            .navbar-nav .nav-item {
+                margin: 0 5px;
+            }
+            
+
+            .navbar-nav .nav-link {
+                padding: 10px 20px;
+                border-radius: 4px;
+                transition: all 0.3s;
+                color: darkslateblue;
+            }
+
+            .navbar-nav .nav-link:hover {
+                background-color: darkslateblue;
+                color: white !important;
+            }
+        }
+
+        #navbut{
+          padding: 10px;
+          border-radius: 10px;
+          background-color:darkslateblue ;
+          color: white;
+        }
+        #navbut:hover{
+          color:darkslateblue ;
+         background-color: #fff;
+         border: 1px solid white;
+        }
+.online{
+color: white;
+background-color: darkslateblue;
+padding: 20px;
+border-radius: 7px;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+transition: background-color 0.5s ease;
+}
+.online:hover{
+background-color: white;
+border: 2px solid  darkslateblue;
+color:  darkslateblue;
+
+}
+.bodyHome{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    gap: 40px;
+
+}
+.bodyHome span{
+    color: darkslateblue ;
+    font-size: 20px;
+   padding-top: 20px;
+}
+.bodyHome i{
+    border-radius: 50%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+}
+.bodyHome img{
+    border-radius: 50%;
+    max-width: 100%;
+        vertical-align: middle;
+        /* border: 7px solid white; */
+          
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-bottom: 7px solid #fae9e4;
+
+}
+.bodyHome div{
+    margin-top: 30px;
+}
+#home{
+    padding: 20px;
+}
+
+#xx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+#x{
+    color:darkslateblue;
+    border: 2px solid #fae9e4;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 400px 10px 400px;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: inset 4px 4px 10px black;
+
+}
+#depart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+}
+#depart div{
+    
+    border: 2px solid #fae9e4;
+   border-radius: 10px;
+   color: darkslateblue;
+       /* max-width: 100%; */
+
+width: 15%;
+padding: 20px;
+margin: 20px;
+transition: background-color 0.5s ease;
+}
+#depart div:hover{
+    background-color: #fae9e4;
+
+}
+#depart img{
+    border-radius: 50%;
+     max-width: 100%;
+        vertical-align: middle;
+         background-color: #fae9e4;
+         padding: 50px;
+         transition: background-color 0.5s ease;
+}
+#depart div  img:hover{
+    background-color: white;
+}
+
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: blanchedalmond;
+  color: darkslateblue;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  animation: scrollText 30s linear infinite;
+}
+
+.ticker-content span {
+  display: inline-block;
+  padding-right: 50px; /* مسافة بين النصوص */
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.count{
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+  /* margin: 30px auto;
+  max-width: 1200px; */
+  gap: 40px;
+}
+#ww{
+   /* background-color: white;
+  color: darkslateblue;
+   padding: 20px;
+  margin: 30px 450px 30px 450px;
+
+   text-align: center;
+   font-size: 25px;
+   border-radius: 20px; */
+   color:darkslateblue;
+    border: 2px solid #fae9e4;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 400px 10px 400px;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: inset 4px 4px 10px black;
+}
+ #why .Choose{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.Choose div{
+    text-align: center;
+  font-size: 20px;
+border:3px solid rgb(255, 205, 205);
+border-radius: 30px;
+color:darkslateblue ;
+padding: 20px;
+margin: 30px;
+  transition: background-color 0.5s ease;
+}
+.Choose div:hover{
+    color: white;
+    background-color:darkslateblue ;
+}
+#www img{
+border-radius: 50%;
+    max-width: 100%;
+        vertical-align: middle;
+        /* border: 7px solid white; */
+          margin: 30px;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-bottom: 7px solid #fae9e4;
+     animation: hoverEffect 2s infinite alternate ease-in-out;
+}
+@keyframes hoverEffect {
+  from {
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+  }
+  to {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .choose-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Choose, #www {
+    width: 100%;
+  }
+}
+
+
+
+
+/* ===================================== */
+.nurses{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 20px;
+    margin: 30px;
+}
+.nurses h3{
+    color: darkblue;
+   font-family: 'Times New Roman', Times, serif;
+}
+.nurses p{
+    color: blueviolet;
+}
+.nurses div{
+ border:3px solid rgb(255, 205, 205);
+ margin: 10px;
+ background-color: white;
+ border-radius: 20px;
+}
+.nurses img{
+   border-radius: 50%;
+    max-width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        /* border: 7px solid white; */
+          margin: 30px;
+    border-top: 7px solid white;
+    border-left: 7px solid white;
+    border-bottom: 7px solid #fae9e4;
+}
+.nurses img:hover{
+    transform: scale(1.1);
+}
+
+#book{
+  color:darkslateblue;
+    border: 2px solid #fae9e4;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 500px 10px 500px;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow:  4px 4px 10px black;
+}
+/* ========================================== */
+
+/* login */
+.appointment-section {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+      background-color: #2d1a4a;
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+ 
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+    flex-direction: row; /* بدل column */
+  gap: 20px;
+  flex-wrap: wrap;
+    }
+
+    .appointment-text {
+      max-width: 600px;
+      margin: 50px;
+          font-size: 16px;
+    line-height: 25px;
+    }
+
+    .appointment-text h2 {
+      
+     padding-top: 30px;
+      font-family:  cursive ;
+      font-size: 36px;
+
+    }
+
+    .appointment-text .btn {
+      background-color: #f6a57f;
+      color: #fff;
+      font-family:  cursive ;
+      padding: 20px;
+      display: inline-block;
+      border-radius: 20px;
+      font-weight: bold;
+      
+     
+    }
+
+    .appointment-form {
+      background-color: #311b52;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .appointment-form input,
+    .appointment-form select,
+    .appointment-form button {
+      width: 48%;
+      padding: 10px;
+      margin: 10px 1%;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .appointment-form input,
+    .appointment-form select {
+      background-color: #412c63;
+      color: #fff;
+    }
+
+    .appointment-form button {
+      width: 100%;
+      background-color: #a18cd1; 
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+
+
+transition: background-color 0.5s ease;
+    }
+.appointment-form button:hover{
+background-color: white;
+border: 2px solid  darkslateblue;
+color:  darkslateblue;
+
+}
+    
+
+    /* ========== Footer Section ========== */
+    footer {
+      background-color: #fdf2ec;
+      padding: 50px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .footer-col {
+      flex: 1;
+      min-width: 200px;
+      margin: 20px;
+    }
+
+    .footer-col h3 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #2d1a4a;
+    }
+
+    .footer-col p, .footer-col li, .footer-col a {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+      list-style: none;
+      text-decoration: none;
+    }
+    .footer-col i:hover{
+      transform: scale(1.1);
+     border:2px solid #a18cd1;
+     border-radius: 50%;
+     padding: 10px;
+    }
+
+    .footer-social {
+      margin-top: 10px;
+    }
+
+    .footer-social i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 80%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background-color: #a18cd1;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* bage nurses */
+   .classshow{
+ width: 25%;
+    background-color: #fdfdfd;
+box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+padding: 15px;
+margin: 20px;
+ transition: transform 0.3s ease;
+}
+.classshow img{
+       width: 100%;
+    border-radius:8px;
+    margin-bottom: 10px;
+}
+#listNurses{
+    margin: 40px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.classshow h3{
+    color: darkblue;
+   font-family: 'Times New Roman', Times, serif;
+}
+.classshow button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #f1ebff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #34495e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+
+  /* book bage */
+   #Bodybook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nurse-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nurse-img-name {
+  text-align: center;
+}
+
+.nurse-img-name img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.nurse-info {
+  margin-top: 10px;
+}
+
+.nurse-card button {
+  width: 100%;
+  margin-top: 10px;
+}
